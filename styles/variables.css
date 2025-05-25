@@ -1,1 +1,31 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: Inter;
+  --accent-font: PressStart2P;
+  --fallback-font: sans-serif;
+  --main-font-default-weight: 400;
+  --main-font-title-weight: 700;
+  --content-background-color: white;
+  --background-image:
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+
+  /* --content-width: 48.5%; */
+  --fluid-375-700: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+  --fluid-375-696: clamp(23.4375rem, 16.3732rem + 30.1408vw, 43.5rem);
+  /* --fluid-120-128: clamp(
+    120px,
+    calc(120px + ((128 - 120) * ((100vw - 375px) / (1440 - 375)))),
+    128px
+  ); */
+  --fluid-120-128: clamp(7.5rem, 7.3239rem + 0.7512vw, 8rem);
+  --fluid-49-65: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --fluid-14-23: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --fluid-13-25: clamp(0.8125rem, 0.5484rem + 1.1268vw, 1.5625rem);
+  --fluid-345-357: clamp(21.5625rem, 21.2984rem + 1.1268vw, 22.3125rem);
+  --fluid-42-30: clamp(1.875rem, 2.8891rem + -1.1268vw, 2.625rem);
+
+  --contour-color: black;
+  --animation-fill-color: red;
+}
